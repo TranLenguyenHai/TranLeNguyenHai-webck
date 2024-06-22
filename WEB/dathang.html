@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FULL DRINKS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa-solid fa-martini-glass-citrus"></i>Full Drinks.</a>
+        <nav class="navbar">
+            <a class="active" href="index.html">Trang chủ</a>
+            <a href="hinhanh.html">Hình ảnh</a>
+            <a href="menu.html">Menu</a>
+            <a href="danhgia.html">Đánh giá</a>
+            <a href="dathang.html">Đặt hàng</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="dathang.html" class="fas fa-shopping-cart"></a>
+
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="tiềm kiếm các loại nước tại đây..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!-- DAT HANG STARTS -->
+
+    <section class="order" id="order">
+        <h3 class="sub-heading">Đặt Hàng Ngay</h3>
+        <h1 class="heading">free ship</h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Họ và tên</span>
+                    <input type="text" placeholder="Nhập đầy đủ họ tên của bạn">
+                </div>
+                <div class="input">
+                    <span>Số điện thoại</span>
+                    <input type="text" placeholder="Nhập số điện thoại">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Đơn đặt hàng</span>
+                    <input type="text" placeholder="Nhập tên đồ uống">
+                </div>
+                <div class="input">
+                    <span>Topping riêng</span>
+                    <select name="topping" style="width: 100%; height: 40px; font-size: 17px;">
+                        <option>Chọn topping thêm</option>
+                        <option>trân châu trắng</option>
+                        <option>trân châu đen</option>
+                        <option>thạch trái cây</option>
+                        <option>sữa</option>
+                        <option>sương sáo</option>
+                        <option>plan</option>
+                        <option>trái cây</option>
+                        <option>pudding</option>
+                        <option>fomat</option>
+                        <option>đào miếng</option>
+                        <option>trái cây</option>
+                    </select>
+                    <!-- <input type="test" placeholder="Nhập tên topping bạn muốn thêm"> -->
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Số lượng</span>
+                    <input type="number" placeholder="sô lượng cần mua">
+                </div>
+                <div class="input">
+                    <span>Thời gian đặt</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Địa chỉ</span>
+                    <textarea name="" placeholder="Thêm địa chỉ nhận" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>Lời nhắn</span>
+                    <textarea name="" placeholder="Nhập tin nhắn của bạn" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Đặt Ngay" class="btn">
+        </form>
+    </section>
+    <!-- DAT HANG ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Địa điểm</h3>
+                <a href="https://maps.app.goo.gl/4Wqa2daP81x1zXWz6">470 Đ. Trần Đại Nghĩa, Khu đô thị, Ngũ Hành Sơn, Đà Nẵng</a>
+            </div>
+
+            <div class="box">
+                <h3>Thông tin liên hệ</h3>
+                <a href="#">sdt: 0985525413</a>
+                <a href="#">email: haitln.23ite@vku.udn.vn</a>
+            </div>
+
+            <div class="box">
+                <h3>Theo dõi chúng tôi</h3>
+                <a href="https://www.facebook.com/nh.20052005">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+            </div>
+
+            <div class="credit"> coppyright @2024 by <span>Tran Le Nguyen Hai <br>
+            </span></div>
+        </div>
+    </section>
+    <!-- FOOTER ENDS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
